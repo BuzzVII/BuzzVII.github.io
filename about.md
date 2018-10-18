@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Over my many years I have accumulated a lot of hobbies. I don't have the focus or concentration to get really good at one thing, instead I'm crap at many things. As time went on it became difficult to remember all the hobbies I've tried. To mitigate this I decided to start chronicalling my adventures. Almost three years after I made that decision I finally set this site up.
