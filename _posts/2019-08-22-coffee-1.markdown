@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Coffee One"
+date:   2019-08-22 16:22:00 +1000
+categories: misc
+---
+I labeled this "Coffee One" because there are probably going to be lots of "Coffee" posts.
+
+I recently got a Flair hand expresson thingy as a gift. It has had the unfortunate consequence of increasing my coffee intake. I work at home most days and my routine involved making a coffee using my V60 or Moka pot. Now that I have expresso on tap I have upped the intake to around three a day (all before lunch). The only real problem I've had with this amount of coffee consumption, excluding the headaches, is that it requires a very fine grind. I only have a hand grinder. The first expresso hand grind of the morning is carthartic, the third is tedious and tiring. This lead to my most recent grinder modification: 
+!["Electric" Grinder]({{ site.url }}/img/ElectricGrinder.jpg)
+
+
+Here is a picture of the final product, produced by hand with the assistance of my drill.
+![Expresso]({{ site.url }}/img/Expresso.jpg)

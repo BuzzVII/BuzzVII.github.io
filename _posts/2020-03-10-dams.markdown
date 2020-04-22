@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Dams"
+date:   2020-03-10 14:33:00 +1000
+categories: misc
+---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+<script src='../../../../js/dam_plot.js'></script>
+
+I've started logging the SEQ dam levels because I like graphs.
+<div id="data">
+</div>
+<div id="chart">
+    <div id="controls">
+    <button id="btnData" type="button">Volume</button>
+    <button id="btnToggle" type="button">Toggle Off</button>
+    </div>
+    <canvas id="myChart" width="400" height="400"></canvas>
+</div>
+
