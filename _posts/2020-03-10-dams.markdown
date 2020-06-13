@@ -8,7 +8,16 @@ categories: misc
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 <script src='../../../../js/dam_plot.js'></script>
 
-I've started logging the SEQ dam levels because I like graphs.
+Some background for this post; I live in South East Queensland (SEQ), around 2007 the region was going through a pretty major drought. Water restrictions were at a stage where there was a ban on watering gardens, fines for househoulds that used too much, recomendations for "if it's yellow let it mellow, if it's brown flush it down", rebates on watertanks, rebates on low flow faucets and distribution of behaviour changing tools such as 3 min sand timers for showers. Every day news reports would give updates on the average usage per person per day, the amount of rain (0) and the current levels for the dams. Daily conversation was dominated by talk about the drought, everyone know the dam numbers. This drought led to massive behavioural changes where people had massively cut their water usage. Then the drought broke, it broke so much that by the end of 2010 the main dam for SEQ was full and when 2011 rolled in several cities in the region were impacted by flash flooding when 2011 rolled in several cities in the region were impacted by flash flooding. The suburb where my sister lived went completely under as the flood peaked at around 14m. Naturally the water restrictions and the conservative use of water dissapeard. This leads into last month, the dam levels have dropped again and we were getting close to introducing water restrictions again. Water was about to become the hot topic again so I thought I would get ahead of the curve.   
+
+I had originally meant for this post to show live graphs of the filled volume of the dams in my region. The data on the dams was posted multiple times a day on the utilities web page, but it was a table with only the last measuerment. To get access to the history required emails etc, so I thought "well I can make a scraper that fetches the page gets the data and writes it to a database". I would already go to the page multiple times a day, if I changed these couple of views with a bot the traffic to the site wouldn't increase and I wasn't being a nasty web citizen.
+
+The html was pretty well set up for scraping. The values were held in tables and used the numeric values in "data-sort" fields. A little bit of Beautiful soup and I had a the scraper running. I set up a cron job on my computer to check the site four times a day and upload the results so that this post would chart the latest data. I left it to run a few days so that there would be a decent amount of data before I wrote anything. Finally I sat down to write this post and give my friend and family access to historical dam data. The scraper was still running without error, the data stream was filling akin to the dams since heavy rain had set in. Then I opened the SEQ site out of habit... they had updated the site. The makeover included graphs of historical dam levels!
+
+I turned the scraper off, added SEQ water back to my bookmarks and learnt an important lesson: Don't try anything, eventually someone else will do it and probably do it better than you. By the way if you are interested in our current dam levels check out: 
+
+<a href="https://www.seqwater.com.au/dam-levels">https://www.seqwater.com.au/dam-levels</a>
+
 <div id="data">
 </div>
 <div id="chart">
